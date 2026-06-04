@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { Package, Zap, ChevronLeft, ChevronRight, ChevronDown, Code2, Lightbulb, Cloud, ShieldCheck, CalendarCheck, Monitor, Hotel, UtensilsCrossed, UserCheck, ClipboardCheck, BarChart3, MapPin, Phone, Mail } from 'lucide-react';
+import { Package, Zap, ChevronLeft, ChevronRight, ChevronDown, Code2, Lightbulb, Cloud, ShieldCheck, CalendarCheck, Hotel, UtensilsCrossed, UserCheck, ClipboardCheck, BarChart3, MapPin, Phone, Mail } from 'lucide-react';
 
 // Gallery images
 import workingSpaceImg from '../assets/gallery/working_space.png';

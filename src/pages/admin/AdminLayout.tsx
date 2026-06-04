@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Outlet, Link, useNavigate } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 
 export default function AdminLayout() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -12,8 +12,6 @@ export default function AdminLayout() {
     e.preventDefault();
     setIsLoading(true);
     setError('');
-
-    const token = btoa(`${username}:${password}`);
 
     try {
       const res = await fetch('http://localhost:8081/api/auth/login', {
