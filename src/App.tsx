@@ -13,7 +13,7 @@ function App() {
     <div>
       <div className="container">
         <nav className="navbar">
-          <h2 style={{ fontSize: '1.5rem', background: 'linear-gradient(135deg, #4F46E5, #38BDF8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Invicta Innovations</h2>
+          <h2 style={{ fontSize: '1.5rem', background: 'linear-gradient(135deg, #4F46E5, #38BDF8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Saas Global</h2>
           <div className="nav-links">
             <a href="/#hero">Home</a>
             <a href="/#about">About</a>
@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          
+
           {/* Admin Routes */}
           <Route path="/admin" element={<AdminLayout />}>
             <Route index element={<AdminDashboard />} />

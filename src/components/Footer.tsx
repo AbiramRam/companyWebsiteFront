@@ -7,9 +7,9 @@ export default function Footer() {
         <div className="footer-grid">
           {/* Brand & Social */}
           <div className="footer-brand">
-            <h3>Invicta Innovations</h3>
+            <h3>Saas Global</h3>
             <p>
-              Founded in 2019, we deliver smart and scalable IT solutions from Jaffna, Sri Lanka.
+              Founded in 2025, we deliver smart and scalable IT solutions from Jaffna, Sri Lanka.
               Our skilled engineers tackle any technical challenge to provide valuable services to clients worldwide.
             </p>
 
@@ -17,19 +17,15 @@ export default function Footer() {
             <div className="footer-office">
               <div className="footer-office-item">
                 <MapPin size={18} className="office-icon" />
-                <p><strong>Head Office:</strong><br />No 12D, 2nd Floor, Serendipity Building,<br />Haig Road, Colombo 04, Sri Lanka</p>
-              </div>
-              <div className="footer-office-item">
-                <MapPin size={18} className="office-icon" />
-                <p><strong>Branch Office:</strong><br />No 72, Palali Road,<br />Jaffna, Sri Lanka</p>
+                <p><strong>Branch Office:</strong><br />Palali Road,<br />Jaffna, Sri Lanka</p>
               </div>
               <div className="footer-office-item">
                 <Phone size={18} className="office-icon" />
-                <p>+94 21 222 8209 &nbsp;|&nbsp; +94 74 443 3005</p>
+                <p>+94 21 413 2415&nbsp;|&nbsp; +94 77 587 1143</p>
               </div>
               <div className="footer-office-item">
                 <Mail size={18} className="office-icon" />
-                <p>info@invictainnovations.com</p>
+                <p>info@saasglobal.com</p>
               </div>
             </div>
 
@@ -79,7 +75,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} <a href="/">Invicta Innovations</a>. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} <a href="/">Saas Global</a>. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

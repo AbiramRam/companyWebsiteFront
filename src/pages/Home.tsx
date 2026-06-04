@@ -49,7 +49,7 @@ const carouselSlides = [
 ];
 
 const galleryItems = [
-  { img: teamPhotoImg, title: 'Our Team', desc: 'Our Invicta Team', category: 'team' },
+  { img: teamPhotoImg, title: 'Our Team', desc: 'Our Team', category: 'team' },
   { img: openingCeremonyImg, title: 'Opening Ceremony', desc: 'Company Opening Ceremony', category: 'ceremony' },
   { img: celebrationImg, title: 'Pongal Celebration', desc: 'Our Pongal Celebration', category: 'ceremony' },
   { img: standupMeetingImg, title: 'Standup Meeting Room', desc: 'Standup Meeting Room', category: 'space' },
@@ -58,9 +58,9 @@ const galleryItems = [
 ];
 
 const teamMembers = [
-  { name: 'MR. S. R. GNANAM', role: 'Chairman', initials: 'SG', avatarClass: 'team-avatar-1', bio: 'Mr. S R Gnanam was appointed to the Board in 1983. He has over 30 years of experience in business management, strategic planning and social and economic research.' },
-  { name: 'MR. M. THAYANANTHAN', role: 'Director', initials: 'MT', avatarClass: 'team-avatar-2', bio: 'Guiding Visionaries Behind Our Success — driving strategic initiatives and innovation across all business verticals.' },
-  { name: 'MR. ALAN SATHIADAS', role: 'Director', initials: 'AS', avatarClass: 'team-avatar-3', bio: 'Guiding Visionaries Behind Our Success — championing technology-driven transformation and operational excellence.' },
+  { name: 'MRS. S. SUJIKALA', role: 'Chairman', initials: 'SS', avatarClass: 'team-avatar-1', bio: 'She was appointed to the Board in 2025. He has over 30 years of experience in business management, strategic planning and social and economic research.' },
+  { name: 'MR. K. GUNA', role: 'Director', initials: 'GN', avatarClass: 'team-avatar-2', bio: 'Guiding Visionaries Behind Our Success — driving strategic initiatives and innovation across all business verticals.' },
+  { name: 'MR. SURIYAKUMAR', role: 'Director', initials: 'SS', avatarClass: 'team-avatar-3', bio: 'Guiding Visionaries Behind Our Success — championing technology-driven transformation and operational excellence.' },
 ];
 
 const faqData = [
@@ -576,21 +576,21 @@ export default function Home() {
               <div className="service-detail-icon"><MapPin size={22} /></div>
               <div>
                 <h3 style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>Address</h3>
-                <p style={{ fontSize: '0.9rem' }}>No 72, Palali Road, Jaffna, Sri Lanka</p>
+                <p style={{ fontSize: '0.9rem' }}>Palali Road, Jaffna, Sri Lanka</p>
               </div>
             </div>
             <div className="card" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
               <div className="service-detail-icon"><Phone size={22} /></div>
               <div>
                 <h3 style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>Call Us</h3>
-                <p style={{ fontSize: '0.9rem' }}>+94 21 222 8209</p>
+                <p style={{ fontSize: '0.9rem' }}>+94 21 412 5163</p>
               </div>
             </div>
             <div className="card" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
               <div className="service-detail-icon"><Mail size={22} /></div>
               <div>
                 <h3 style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>Email Us</h3>
-                <p style={{ fontSize: '0.9rem' }}>info@invictainnovations.com</p>
+                <p style={{ fontSize: '0.9rem' }}>info@saasglobal.com</p>
               </div>
             </div>
           </div>
