@@ -5,7 +5,7 @@ export default function ViewMessages() {
 
   useEffect(() => {
     const token = localStorage.getItem('adminToken');
-    fetch('http://localhost:8081/api/messages', {
+    fetch('http://charismatic-art-production-3e7a.up.railway.app:8081/api/messages', {
       headers: {
         'Authorization': `Bearer ${token}`
       }

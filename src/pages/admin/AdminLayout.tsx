@@ -14,7 +14,7 @@ export default function AdminLayout() {
     setError('');
 
     try {
-      const res = await fetch('http://localhost:8081/api/auth/login', {
+      const res = await fetch('http://charismatic-art-production-3e7a.up.railway.app:8081/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

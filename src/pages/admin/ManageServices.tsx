@@ -6,7 +6,7 @@ export default function ManageServices() {
   const [description, setDescription] = useState('');
 
   const fetchServices = () => {
-    fetch('http://localhost:8081/api/services')
+    fetch('http://charismatic-art-production-ad2f.up.railway.app:8081/api/services')
       .then(res => res.json())
       .then(setServices);
   };
@@ -18,7 +18,7 @@ export default function ManageServices() {
   const handleAdd = async (e: React.FormEvent) => {
     e.preventDefault();
     const token = localStorage.getItem('adminToken');
-    await fetch('http://localhost:8081/api/services', {
+    await fetch('http://charismatic-art-production-ad2f.up.railway.app:8081/api/services', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -33,7 +33,7 @@ export default function ManageServices() {
 
   const handleDelete = async (id: number) => {
     const token = localStorage.getItem('adminToken');
-    await fetch(`http://localhost:8081/api/services/${id}`, {
+    await fetch(`http://charismatic-art-production-ad2f.up.railway.app:8081/api/services/${id}`, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${token}`

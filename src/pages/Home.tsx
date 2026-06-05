@@ -175,12 +175,12 @@ export default function Home() {
 
   /* --- Data Fetching --- */
   useEffect(() => {
-    fetch('http://localhost:8081/api/services')
+    fetch('http://charismatic-art-production-ad2f.up.railway.app:8081/api/services')
       .then(res => res.json())
       .then(data => setServices(data))
       .catch(console.error);
 
-    fetch('http://localhost:8081/api/packages')
+    fetch('http://charismatic-art-production-ad2f.up.railway.app:8081/api/packages')
       .then(res => res.json())
       .then(data => setPackages(data))
       .catch(console.error);
@@ -248,7 +248,7 @@ export default function Home() {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const res = await fetch('http://localhost:8081/api/messages', {
+      const res = await fetch('http://charismatic-art-production-ad2f.up.railway.app:8081/api/messages', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
