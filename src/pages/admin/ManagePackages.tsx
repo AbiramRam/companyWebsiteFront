@@ -7,7 +7,7 @@ export default function ManagePackages() {
   const [featuresStr, setFeaturesStr] = useState('');
 
   const fetchPackages = () => {
-    fetch('http://charismatic-art-production-ad2f.up.railway.app:8081/api/packages')
+    fetch('https://charismatic-art-production-3e7a.up.railway.app/api/packages')
       .then(res => res.json())
       .then(setPackages);
   };
@@ -20,7 +20,7 @@ export default function ManagePackages() {
     e.preventDefault();
     const token = localStorage.getItem('adminToken');
     const features = featuresStr.split(',').map(f => f.trim());
-    await fetch('http://charismatic-art-production-ad2f.up.railway.app:8081/api/packages', {
+    await fetch('https://charismatic-art-production-3e7a.up.railway.app/api/packages', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -36,7 +36,7 @@ export default function ManagePackages() {
 
   const handleDelete = async (id: number) => {
     const token = localStorage.getItem('adminToken');
-    await fetch(`http://charismatic-art-production-ad2f.up.railway.app:8081/api/packages/${id}`, {
+    await fetch(`https://charismatic-art-production-3e7a.up.railway.app/api/packages/${id}`, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${token}`
