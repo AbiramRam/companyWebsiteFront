@@ -8,7 +8,7 @@ export default function Contact() {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const res = await fetch('http://charismatic-art-production-ad2f.up.railway.app:8081/api/messages', {
+      const res = await fetch('https://charismatic-art-production-ad2f.up.railway.app:8081/api/messages', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
