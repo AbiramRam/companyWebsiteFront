@@ -248,7 +248,7 @@ export default function Home() {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const res = await fetch('http://charismatic-art-production-3e7a.up.railway.app/api/messages', {
+      const res = await fetch('https://charismatic-art-production-3e7a.up.railway.app/api/messages', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
